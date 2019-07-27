@@ -8,7 +8,7 @@
 
 int main()
 {
-        int sockt,port = 3456; //enter any free port of your choice here
+        int sockt,port = 8495; //enter any free port of your choice here
         struct sockaddr_in revsockaddr;
 
         sockt = socket(AF_INET, SOCK_STREAM,0);
